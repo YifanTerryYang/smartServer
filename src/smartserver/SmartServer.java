@@ -16,7 +16,12 @@ public class SmartServer {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("yangyifan");
+        String s = "";
+        for(String t:args){
+            s += t + "---";
+        }
+        
+        System.out.println(s);
     }
     
 }
